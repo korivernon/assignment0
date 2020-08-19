@@ -268,6 +268,18 @@ Follow directions on website.
 
 ## Step 3: Hello World Assignment
 
+First clone your repository so you can begin working on it. 
+
+Open PyCharm Edu and select 'Get from Version Control'.
+
+Select the GitHub tab and then select your assignment and open it inside of your 'CS-1114' directory. 
+
+<img src="images/selrepo.png" width="100%" />
+
+When we are finished cloning our repository, this is what we will see:
+
+<img src="images/whatwewillsee.png" width="100%" />
+
 In this assignment, you will be tasked with creating a `Hello World` file.
 
 The starter code has been provided for you in the file `hello_world.py`. Open the from 'GitHub Desktop' inside of 'PyCharm' and modify the file so that it prints "Hello World".
@@ -293,7 +305,21 @@ if __name__ == '__main__':
     main()
 ```
 
-**2.** Comment out the `'print()'` statement, and Make the corresponding changes. Start a new line in which you output `'Hello World'` to the console. Run your code. What happened? Commit and push the changes to GitHub. 
+After you commit, you should receive an email that looks like this:
+
+<img src="images/failed.png" width="50%" />
+
+Click on 'View results' and it should take you to this page. 
+
+<img src="images/actions.png" width="100%" />
+
+The actions page will tell you what is going on. This is where you can view the results of your tests. Click on 'Autograding' and then select the 'Run education/autograding@v1' tab. This will open a drop down that has the results of your test, which should look like the following. 
+
+<img src="images/whathappened.png" width="50%" />
+
+Notice that the output says it did not match the expected `%0Hello World%0`. The `%0` denotes a terminating line character. You don't have to worry about that. What you really want to pay attention to is the `Hello World` aspect of that. Let's change our code to match that!
+
+**2.** Comment out the `'print()'` statement, and Make the corresponding changes. Start a new line in which you output `'Hello World'` to the console. Run your code. What happened? Commit and push the changes to GitHub.
 
 ```out 
 def main():
@@ -307,6 +333,22 @@ def main():
 if __name__ == '__main__':
     main()
 ```
+
+You should **NOT** receive an email if it is done correctly. To double check, go back to the 'Actions' tab and select 'Autograding'. Make sure that your 'Run education/autograding@v1' looks exactly like this:
+
+<img src="images/passed.png" width="50%" />
+
+## Congratulations! You have just completed your first assignment! 
+
+### If you are still having issues...
+
+When you select Commit in your VCS menu (Mac: `Command+K`, Windows: `alt+K`) it will bring up a commit dialog box. 
+
+<img src="images/commitMe.png" width="100%" />
+
+Push your commit to GitHub. 
+
+<img src="images/pushtogithub.png" width="100%" />
 
 ### GETTING HELP
 
