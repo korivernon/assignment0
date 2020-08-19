@@ -12,6 +12,8 @@ Let's get started.
     1. [Installing PyCharm for Windows](#winpy)
     2. [Installing PyCharm for Mac](#macpy)
 2. [Add/Commit/Push Sequence in PyCharm](#config)
+    1. [Config for Windows](#wingh)
+    2. [Config for Mac](#wmacgh)
 3. [(Optional) Installing GitHub Desktop](#gitdesk)
     1. [Installing GitHub Desktop for Windows](#windesk)
     2. [Installing GitHub Desktop for Mac](#macdesk)
@@ -38,7 +40,15 @@ Got it now? Great! Keep your credentials handy throughout the configuration proc
 
 **1.** Download PyCharm using this link [here](https://www.jetbrains.com/edu-products/download/download-thanks-pce.html?platform=windows)
 
-**2.** Follow directions listed on website. 
+**2.** When you are downloading PyCharm, create a folder ‘CS-1114’ where you will place all of your files related to the class. Organization is important when you are using Git. This is strongly recommended but not necessary. 
+
+<img src="images/newfolder.png" width="50%" />
+
+**3.** Configure and install PyCharm Edu. 
+
+**4.** Launch PyCharm Edu. This is what you should see below on your homescreen.
+
+<img src="images/startmenu.png" width="50%" />
 
 <a name="macpy"></a>
 
@@ -71,6 +81,59 @@ This is what you should be presented with:
 <a name="config"></a>
 
 ### Configuring PyCharm and GitHub
+
+<a name="wingh"></a>
+
+#### Windows 
+
+**1.** Launch PyCharm Edu. This is what you should see below on your homescreen.
+
+<img src="images/startmenu.png" width="50%" />
+
+**1.** Select ‘Get from Version Control’. 
+
+**3.** Download and install Git if you have not already on the ‘Repository URL’ tab. 
+
+Select ‘GitHub’ and then select ‘Log In via GitHub’.’
+
+<img src="images/winlogingithub.png" width="50%" />
+
+**4.** Login and authorize PyCharm Edu to use GitHub. Once you finish, you will get this message on JetBrains’ website. 
+
+Now that GitHub is connected and installed, now you can clone your folder. 
+Find, then clone your repository inside of the ‘CS-1114’ folder that we created earlier. 
+
+<img src="images/winclone.png" width="50%" />
+
+This should happen if everything is done correctly. 
+
+<img src="images/winclone2.png" width="50%" />
+
+**5.** In order to run your code, you will have to configure your virtual environment. You should have a yellow bar across the top of your screen. Select ‘Configure Python interpreter’ and then select ‘Add interpreter…’
+
+<img src="images/addinterpreter.png" width="50%" />
+
+**6.** Choose your location to be the location of the folder that you are working in. In our case, it is ‘CS-1114/assignment0-template’.
+
+<img src="images/configenv.png" width="50%" />
+
+**7.** Change the code a little bit. 
+
+Now let’s work on committing. Press ‘Alt+`’. This will bring up the window below. Select ‘1.Commit…’
+
+<img src="images/vcstab.png" width="50%" />
+
+**8.** This should bring up a side panel that prompts you for your commit message. Enter in a message with the details of what you changed. The ‘Commit’ button should be blue. Click on the down arrow next to the ‘Commit’ button and select ‘Commit and Push…’
+
+<img src="images/wincommit.png" width="50%" />
+
+A last message will pop up where you will confirm that you want to push commits to GitHub. 
+
+<img src="images/winpush.png" width="50%" />
+
+#### Mac OS 
+
+<a name="macgh"></a>
 
 **1.** When you first open PyCharm, it will ask you where you would like to bring your file in from. Select "Get from Version Control"
 
@@ -115,7 +178,6 @@ This part is extremely important because this is how you submit your assignments
 **3.** After this, another textbox will pop up and you will confirm that you want to push the commits that you have staged. Hit 'Push' to confirm. 
 
 <img src="images/push.png" width="50%" />
-
 
 <a name="gitdesk"></a>
 
