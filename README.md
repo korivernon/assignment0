@@ -7,13 +7,13 @@ This assignment will familiarize you with the recommended process for editing, t
 Let's get started. 
 
 #### TABLE OF CONTENTS
-0. [Sign Up for GitHub](#register)
+0. [Sign Up for GitHub and Install Python](#register)
 1. [Installing PyCharm](#install)
     1. [Installing PyCharm for Windows](#winpy)
     2. [Installing PyCharm for Mac](#macpy)
 2. [Add/Commit/Push Sequence in PyCharm](#config)
     1. [Config for Windows](#wingh)
-    2. [Config for Mac](#wmacgh)
+    2. [Config for Mac](#macgh)
 3. [(Optional) Installing GitHub Desktop](#gitdesk)
     1. [Installing GitHub Desktop for Windows](#windesk)
     2. [Installing GitHub Desktop for Mac](#macdesk)
@@ -21,14 +21,21 @@ Let's get started.
 
 <a name="register"></a>
 
-## Step 0: Sign Up for GitHub
+## Step 0: Sign Up for GitHub and Install Python
 
-If you have not already created a GitHub account, please do so right now. 
+If you have not already created a GitHub account, please do so right now. *(Go ahead and put a 'lil bio, tell us about yourself and aspirations!)*
 
-Click [here](https://github.com/join?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home) to sign up.
+**1.** Click [here](https://github.com/join?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home) to sign up.
 
-Got it now? Great! Keep your credentials handy throughout the configuration process.
+Got your GitHub now? Great! Keep your credentials handy throughout the configuration process.
 
+**2. Now let's install Python.** 
+
+If you are on a **Mac Machine**, click [here](https://www.python.org/ftp/python/3.7.9/python-3.7.9-macosx10.9.pkg) to install Python. Keep note of where you installed Python on your machine. 
+
+If you are on a **Windows Machine**, click [here](https://www.python.org/ftp/python/3.7.9/python-3.7.9-amd64.exe) to install Python. Keep note of where you installed Python on your machine. 
+
+Got Python now? Great! Let's keep going.
 
 <a name="install"></a>
 
@@ -49,6 +56,8 @@ Got it now? Great! Keep your credentials handy throughout the configuration proc
 **4.** Launch PyCharm Edu. This is what you should see below on your homescreen.
 
 <img src="images/startmenu.png" width="50%" />
+
+[Next Section: Add/Commit/Push Sequence in PyCharm](#config)
 
 <a name="macpy"></a>
 
@@ -84,6 +93,8 @@ This is what you should be presented with:
 
 <a name="wingh"></a>
 
+[Jump to Mac OS: Config for Mac](#macgh)
+
 #### Windows 
 
 **1.** Launch PyCharm Edu. This is what you should see below on your homescreen.
@@ -92,7 +103,7 @@ This is what you should be presented with:
 
 **1.** Select ‘Get from Version Control’. 
 
-**3.** Download and install Git if you have not already on the ‘Repository URL’ tab. 
+**3. Download and install Git if you have not already on the ‘Repository URL’ tab.** <-- This is very important
 
 Select ‘GitHub’ and then select ‘Log In via GitHub’.’
 
@@ -113,9 +124,7 @@ This should happen if everything is done correctly.
 
 <img src="images/addinterpreter.png" width="50%" />
 
-**6.** Choose your location to be the location of the folder that you are working in. In our case, it is ‘CS-1114/assignment0-template’.
-
-<img src="images/configenv.png" width="50%" />
+**6.** Refer to this link [here](https://www.jetbrains.com/help/pycharm/configuring-local-python-interpreters.html) to set up your interpreter. 
 
 **7.** Change the code a little bit. 
 
@@ -131,6 +140,8 @@ A last message will pop up where you will confirm that you want to push commits 
 
 <img src="images/winpush.png" width="50%" />
 
+[Next Section: (Optional) Installing GitHub Desktop](#gitdesk)
+
 #### Mac OS 
 
 <a name="macgh"></a>
@@ -138,6 +149,8 @@ A last message will pop up where you will confirm that you want to push commits 
 **1.** When you first open PyCharm, it will ask you where you would like to bring your file in from. Select "Get from Version Control"
 
 <img src="images/getfromvc.png" width="50%" />
+
+**Download and install Git if you have not already on the ‘Repository URL’ tab.** <-- This is very important
 
 **2.** Select GitHub, and then login. 
 
@@ -159,9 +172,11 @@ If you get a virtual environment error (yellow bar at the top of your screen), y
 
 To remedy this situtation, follow these steps.
 
-**1.** Select 'Configure Python interpreter' > 'Add new interpreter'. Then under the 'Virtualenv Environment' tab, ensure that you are in your target location. Select 'OK'
+**1.** In order to run your code, you will have to configure your virtual environment. You should have a yellow bar across the top of your screen. Select ‘Configure Python interpreter’ and then select ‘Add interpreter…’
 
-<img src="images/venverror2.png" width="50%" />
+<img src="images/addinterpreter.png" width="50%" />
+
+**6.** Refer to this link [here](https://www.jetbrains.com/help/pycharm/configuring-local-python-interpreters.html) to set up your interpreter. 
 
 ### Commit/Push Sequence using PyCharm
 
