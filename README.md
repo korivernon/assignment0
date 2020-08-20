@@ -293,12 +293,12 @@ if __name__ == '__main__':
     main()
 ```
 
-**1.** First, replace `pass` with `print()`. Run your code (Green Play Button). What happened? Commit and push your changes to GitHub. What happened? write it down in a comment, using `'''Summary 1:` before your comment, and `'''` to denote at the end. It should look something like this:
+**1.** First, replace `pass` with `print('Hello')`. Run your code (Green Play Button). What happened? Commit and push your changes to GitHub. What happened? write it down in a comment, using `'''Summary 1:` before your comment, and `'''` to denote at the end. It should look something like this:
 
 ```out 
 def main():
     """ Displays 'Hello World'"""
-    print()
+    print('Hello')
     '''Summary (1): It did something!'''
 
 if __name__ == '__main__':
@@ -317,14 +317,14 @@ The actions page will tell you what is going on. This is where you can view the 
 
 <img src="images/whathappened.png" width="50%" />
 
-Notice that the output says it did not match the expected `%0Hello World%0`. The `%0` denotes a terminating line character. You don't have to worry about that. What you really want to pay attention to is the `Hello World` aspect of that. Let's change our code to match that!
+Notice that the output says it did not match the expected output.
 
-**2.** Comment out the `'print()'` statement, and Make the corresponding changes. Start a new line in which you output `'Hello World'` to the console. Run your code. What happened? Commit and push the changes to GitHub.
+**2.** Comment out the `'print('Hello')'` statement, and Make the corresponding changes. Start a new line in which you output `'Hello World'` to the console. Run your code. What happened? Commit and push the changes to GitHub.
 
 ```out 
 def main():
     """ Displays 'Hello World'"""
-    # print()
+    # print('Hello')
     '''Summary (1): It did something!'''
     
     print('Random Things Inside of Here')
