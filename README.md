@@ -357,7 +357,7 @@ Push your commit to GitHub.
 
 The benefit of Git is that every time you commit and push your changes, a copy of your code at that point in time. 
 
-To use PyCharm to revert to previous changes, take a look at this [video](https://www.youtube.com/watch?v=xx-oIxAR-u0).
+To use PyCharm to revert to previous changes, take a look at **this** [video](https://www.youtube.com/watch?v=xx-oIxAR-u0).
 
 ### GETTING HELP
 
