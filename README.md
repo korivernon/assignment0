@@ -18,6 +18,7 @@ Let's get started.
     1. [Installing GitHub Desktop for Windows](#windesk)
     2. [Installing GitHub Desktop for Mac](#macdesk)
 4. [Assignment](#assignment)
+5. [Reverting to Previous Versions](#revert)
 
 <a name="register"></a>
 
@@ -349,6 +350,8 @@ When you select Commit in your VCS menu (Mac: `Command+K`, Windows: `alt+K`) it 
 Push your commit to GitHub. 
 
 <img src="images/pushtogithub.png" width="100%" />
+
+<a name="revert"></a>
 
 ## Reverting to Previous Versions 
 
