@@ -339,7 +339,25 @@ You should **NOT** receive an email if it is done correctly. To double check, go
 
 <img src="images/passed.png" width="50%" />
 
-## Congratulations! You have just completed your first assignment! 
+**3.** To practice reverting changes, add an exclamation point to the end of ```Hello World!``` save and commit your changes to GitHub. 
+
+This will result in our code failing the autograder. Instead of deleting the changes, revert to the previous version where we had ```Hello World```. To do this, select `Git` in the bottom left hand corner. It will bring up a panel. Select the commit message that you would like to select and the file that you would like to apply it to, and then press the little grey return arrow. 
+
+<img src="images/selectcommessage.png" width="100%" />
+
+Add a comment then select 'OK'.
+
+<img src="images/addchangemessage.png" width="100%" />
+
+It will bring up this 'Patch Conflict' panel. Select 'Apply' if you want to revert to this version in history. Otherwise, select 'Abort'. 
+
+<img src="images/patchconflict.png" width="100%" />
+
+You will get a message `There is one conflict left unprocessed. Save changes and mark the conflict resolved anyways`. Select `Apply Changes and Mark Resolved`. 
+
+Congratualtions, you have just gone back to a previous version of your code using Version Control!
+
+## You have just completed your first assignment! 
 
 ### If you are still having issues...
 
