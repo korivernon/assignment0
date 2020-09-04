@@ -14,15 +14,12 @@ Let's get started.
 2. [Add/Commit/Push Sequence in PyCharm](#config)
     1. [Config for Windows](#wingh)
     2. [Config for Mac](#macgh)
-3. [(Optional) Installing GitHub Desktop](#gitdesk)
-    1. [Installing GitHub Desktop for Windows](#windesk)
-    2. [Installing GitHub Desktop for Mac](#macdesk)
-4. [Assignment](#assignment)
-5. [Reverting to Previous Versions](#revert)
+3. [Assignment](#assignment)
+4. [Reverting to Previous Versions](#revert)
 
 <a name="register"></a>
 
-## Step 0: Sign Up for GitHub and Install Python
+## Part 0: Sign Up for GitHub and Install Python
 
 If you have not already created a GitHub account, please do so right now. *(Go ahead and put a 'lil bio, tell us about yourself and aspirations!)*
 
@@ -40,7 +37,7 @@ Got Python now? Great! Let's keep going.
 
 <a name="install"></a>
 
-## Step 1: Installing PyCharm
+## Part 1: Installing PyCharm
 
 <a name="winpy"></a>
 
@@ -86,7 +83,7 @@ This is what you should be presented with:
 
 <img src="images/openscreen.png" width="50%" />
 
-## Step 2: 
+## Part 2: 
 
 <a name="config"></a>
 
@@ -197,77 +194,8 @@ This part is extremely important because this is how you submit your assignments
 
 <a name="gitdesk"></a>
 
-## Step 3: (Optional) Installing GitHub Desktop 
 
-[Skip This Section](#assignment)
-
-**1.** Visit this [website](https://desktop.github.com/) and choose your operating system to download GitHub Desktop.
-
-<img src="images/ghdesktop.png" width="50%" />
-
-<a name="windesk"></a>
-
-### Windows
-
-Follow directions on website. 
-
-<a name="macdesk"></a>
-
-### Mac OS  
-
-**2.** Install the GitHubDesktop zip file. 
-
-<img src="images/ghdesktophome.png" width="50%" />
-
-**3.** You may get this warning when you install on Mac OS - it is OK. 
-
-<img src="images/warning.png" width="50%" />
-
-**4.** Sign in to GitHub.com using your GitHub account. 
-
-<img src="images/loginandauthorize.png" width="50%" />
-
-**5.** Login and authorize GitHub Desktop to be used.
-
-**6.** Cycle through the instructions and grant GitHub Desktop permission and access to the folders that you are working in.
-
-<img src="images/authorize.png" width="50%" />
-
-**7.** Once you have finished authorizing GitHub Destktop, now you can choose the corresponding repository to work in. 
-
-<img src="images/complete.png" width="50%" />
-
-**8.** Find your example repository (for you it may be different), and select it. 
-
-**9.** Select the option to clone your target repository. You will be presented with a screen that asks you for your local path inside of your machine. 
-
-<img src="images/clonerepo.png" width="50%" />
-
-**10.** Choose the correct local path. In our case, you are looking for the 'CS-1114' Folder. Once you have selected the correct folder, select 'Open'.
-
-<img src="images/selectrepo.png" width="50%" />
-
-<img src="images/correctrepo.png" width="50%" />
-
-**11.** Now that your repo is selected, and you have successfully cloned the correct file onto your machine, now you have to open it in your code editor of choice (for this class, it is recommended that you use PyCharm). If your default editor is not PyCharm, this is how you change it. 
-
-<img src="images/reposelected.png" width="50%" />
-
-***11.1*** Select your preferred editor (PyCharm is recommended for this class).
-
-<img src="images/selecteditor.png" width="50%" />
-
-**12. Your First Commit!** - Now that you have configured everything, now you will commit your changes to GitHub. Type in your message, and select 'Commit to master'
-
-<img src="images/firstcommit.png" width="50%" />
-
-***12.1*** We are not done yet! Now we have to push our commits to the 'Origin Remote'. Push 'Push Origin', and once it finishes, congratulations! You have pushed your first commit to GitHub. 
-
-<img src="images/notdoneyet.png" width="50%" />
-
-<a name="assignment"></a>
-
-## Step 3: Hello World Assignment
+## Part 3: Hello World Assignment
 
 First clone your repository so you can begin working on it. 
 
