@@ -110,7 +110,7 @@ Select ‘GitHub’ and then select ‘Log In via GitHub’.’
 
 <img src="images/winlogingithub.png" width="50%" />
 
-**4.** Login and authorize PyCharm Edu to use GitHub. Once you finish, you will get this message on JetBrains’ website. 
+**4.** Login and authorize PyCharm Edu to use GitHub. Once you finish, you will get a confirmation message on JetBrains’ website. 
 
 Now that GitHub is connected and installed, now you can clone your folder. 
 Find, then clone your repository inside of the ‘CS-1114’ folder that we created earlier. 
